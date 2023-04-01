@@ -1,0 +1,41 @@
+h1 {
+    background-color: #ff006e;
+    margin-left: 30px;
+    border-style: solid;
+    border-color:#07fbe7;
+    border-inline-width: 5px;
+}
+
+body {
+    margin: 0px;
+    background-color: #000000;
+}
+
+h2 {
+    background-color: #ff006e;
+    margin-left: 20px;
+    border:solid  rgb(43, 226, 168);
+    border-inline-width:5px;
+}
+
+p {
+    color: #fb5607;
+    border: solid 5px white
+}
+
+h3 {
+    animation: forwards;
+    background-color: #ffbe0b;
+}
+
+input {
+    background-color: #ff006e;
+    border-inline-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+input :hover {
+    background-color: yellow;
+
+}
