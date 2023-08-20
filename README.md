@@ -1,6 +1,6 @@
 Hi there this is sagar rajak .  
 Currently im learning fullstack devlopment and these are my initial projects or u can say my learnig phase homework.
 mostly i used here was html and css basic and i learnt how to apply it ..
-and after this im learnig jaavscript right now ....i know these projects or one kind off homeworks wont be 
+and after this im learnig javascript right now ....i know these projects or one kind off homeworks wont be 
 too much exciting but im begining my journey from 
 here so yep im happy with this thanks.. 
