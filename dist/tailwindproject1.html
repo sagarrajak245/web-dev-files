@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-200" class="dark:bg-black dark:text-white dark:bg-none">
+
+
+    <h1>
+        <div class="flex  justify-center">
+            <p class="text-bold text-yellow-600  font-bold"> Tailwind Project !</p>
+
+        </div>
+    </h1>
+    </div>
+
+    <!-- nav baar starts here............... -->
+
+    <div>
+        <nav class="w-full h-14  px-6  md:px-6 items-center  justify-between flex space-x-5 bg-slate-200">
+
+            <div class="text-slate-black font-medium     "><a href="#" alt="im link"><button href="#"
+                        class="rounded-lg bg-blue-200 shadow-md shadow-blue-500/40 hover:shadow-blue-500/20    ">Login/signup</button></a>
+            </div>
+            <div
+                class="font-normal rounded-lg text-black shadow-md shadow-blue-200 hover:shadow-blue-500/20 hidden md:block">
+                sagar rajak</div>
+
+            <ul :class="isopen ?='block' :'hidden'" class=" md:flex  hidden space-x-5">
+
+
+                <li><a class="bg-slate-300 rounded-lg shadow-md shadow-blue-500/40 hover:shadow-blue-500/20  focus:bg-cyan-300 text-black 2xl"
+                        href="#" alt="im link">Home</a></li>
+                <li><a class="bg-slate-300 rounded-lg shadow-md shadow-blue-500/40 hover:shadow-blue-500/20  focus:bg-cyan-300 text-black 2xl"
+                        href="#" alt="im link">about</a></li>
+                <li><a class="bg-slate-300 rounded-lg shadow-md shadow-blue-500/40 hover:shadow-blue-500/20  focus:bg-cyan-300 text-black 2xl"
+                        href="#" alt="im link">skills</a></li>
+                <li><a class="  bg-slate-300 rounded-lg  shadow-md shadow-blue-500/40 focus:bg-cyan-300 hover:shadow-blue-500/20 text-black 2xl"
+                        href="#" alt="im link">projects</a></li>
+
+
+            </ul>
+            <div class="md:hidden">
+                <button @click="isopen=!isopen" class=" text-3xl">&#8801;</button>
+            </div>
+
+
+        </nav>
+        <!-- nav baar ends here............... -->
+
+    </div>
+
+    <!-- main content starts here............... -->
+    <img src="C:\Users\sagar rajak\Downloads\henry-be-TCsCykbwSJw-unsplash.jpg" class="w-full   md:block hidden "
+        alt="im image">
+    <img src="C:\Users\sagar rajak\Downloads\jordon-conner-VIcTzkzNZR8-unsplash.jpg" class="w-full  md:hidden block  "
+        alt="im image">
+    <div><!--center content here-->
+        <div class=" w-full h-auto mx-2 my-5 px-3 py-6 bg-slate-300  sm:align-baseline grid grid-cols-2 md:grid-cols-4  
+        gap-4 sm:auto-cols-min  content-center">
+
+            <div class="bg-cyan-200 w-full h-40"><img src="C:\Users\sagar rajak\OneDrive\Pictures\1500x500.jpeg"
+                    class="h-40 w-full">
+                INDIA
+            </div>
+            <div class="bg-cyan-200 w-full h-40 "><img src="https://source.unsplash.com/random" class="h-40 w-full">
+                RANDOM
+            </div>
+            <div class="bg-cyan-200 w-full h-40 "><img
+                    src="C:\Users\sagar rajak\Downloads\kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="h-40 w-full">
+                GRAND CANYON USA
+            </div>
+            <div class="bg-cyan-200 w-full h-40 "> <img
+                    src="C:\Users\sagar rajak\Downloads\jeremy-bishop-dR_q93lfaTw-unsplash.jpg" class="h-40 w-full">
+                CANADA
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <div class="mx-4 bg-indigo-400">
+        <div class="bg-slate-200 w-full h-auto mx-3 my-3 px-4 py-4 grid grid-cols-2 gap-3">
+
+            <div class="bg-violet-400  h-auto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit
+                aliquid praesentium similique eius aperiam accusantium illum obcaecati quasi,
+                quisquam harum hic reprehenderit repudiandae,
+                tempora, provident voluptatem? Repellat in, est tenetur exercitationem quam illum.
+            </div>
+            <div class="bg-violet-400  h-auto">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Non porro earum at consectetur, rem qui consequatur quidem,
+                fuga molestiae, modi quaerat maiores officia
+                veniam dolorem neque sapiente accusamus perferendis maxime minima officiis
+                ipsum possimus debitis?</div>
+
+
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mx-5 text-white py-6 text-center  ">
+
+
+        <div class=" bg-black rounded-xl  m-2 grid place-content-center">
+
+            <div class=" bg-black rounded-xl m-1 flex flex-wrap p-6 max-w-sm mx-auto item-center h-20 space-x-2">
+                <div><img class="h-10 w-10" src="C:\Users\sagar rajak\OneDrive\Pictures\IMG_20220829_211205_.jpg"></div>
+                <div class="bg-black font-thin text-1xl  sm:text-yellow-400 text-white">sagar rajak
+                    <p class=" font-thin  text-1xl">The tenacious one!</p>
+                </div>
+
+                <p class="py-2 m-1">&copy; 2023 sagar rajak. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
